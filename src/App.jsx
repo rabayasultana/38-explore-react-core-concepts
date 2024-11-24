@@ -59,51 +59,51 @@ function App() {
   );
 }
 
-function Device(props) {
-  console.log(props);
-  return (
-    <h2>
-      This device: {props.name} price:{props.price}{" "}
-    </h2>
-  );
-}
+// function Device(props) {
+//   console.log(props);
+//   return (
+//     <h2>
+//       This device: {props.name} price:{props.price}{" "}
+//     </h2>
+//   );
+// }
 
-function Person() {
-  const age = 25;
-  const person = { name: "sakib", age: 12 };
-  return (
-    <h3>
-      I am {person.name} with age: {age}
-    </h3>
-  );
-}
+// function Person() {
+//   const age = 25;
+//   const person = { name: "sakib", age: 12 };
+//   return (
+//     <h3>
+//       I am {person.name} with age: {age}
+//     </h3>
+//   );
+// }
 
-const { grade, score } = { grade: "7", score: "99" };
+// const { grade, score } = { grade: "7", score: "99" };
 
-function Student({ grade, score }) {
-  console.log((grade = 1), (score = 0));
-  return (
-    <div className="student">
-      <h3>This is a student</h3>
-      <p>Name:</p>
-      <p>Class: {grade}</p>
-      <p>Score: {score}</p>
-    </div>
-  );
-}
+// function Student({ grade, score }) {
+//   console.log((grade = 1), (score = 0));
+//   return (
+//     <div className="student">
+//       <h3>This is a student</h3>
+//       <p>Name:</p>
+//       <p>Class: {grade}</p>
+//       <p>Score: {score}</p>
+//     </div>
+//   );
+// }
 
-function Developer() {
-  const developerStyle = {
-    margin: "20px",
-    padding: "20px",
-    border: "2px solid purple",
-    borderRadius: "20px",
-  };
-  return (
-    <div style={developerStyle}>
-      <h5>Developer</h5>
-      <p>Coding: </p>
-    </div>
-  );
-}
+// function Developer() {
+//   const developerStyle = {
+//     margin: "20px",
+//     padding: "20px",
+//     border: "2px solid purple",
+//     borderRadius: "20px",
+//   };
+//   return (
+//     <div style={developerStyle}>
+//       <h5>Developer</h5>
+//       <p>Coding: </p>
+//     </div>
+//   );
+// }
 export default App;
